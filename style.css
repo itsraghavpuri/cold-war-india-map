@@ -1,0 +1,69 @@
+/* Map should be full screen */
+#map {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden; /* Prevents scrollbars */
+  }
+  
+  /* Top-right course title */
+  .title-box {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+    z-index: 9999;   /* <---- ensures it's always on top of the map */
+    pointer-events: auto; /* allows map clicks through the box */
+  }
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 2000; /* Higher than map and title-box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4); /* Black overlay */
+
+    /* NEW: Center modal content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  
+.modal-content {
+    background-color: #fefefe;
+    margin: 0 auto; /* Changed from 15% auto */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: Arial, sans-serif;
+}
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+  }
+  
