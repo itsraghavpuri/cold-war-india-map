@@ -29,20 +29,20 @@ var delhiBounds = [
     {
       name: "National War Memorial",
       coords: [28.612919939084257, 77.23305365476675],
-      desc: `Commemorates India’s soldiers – reflects Cold War era conflicts and India’s defense policy.
+      desc: `Commemorates India’s soldiers – reflects Cold War era conflicts and India’s defence policy.
              <br>1. <a href="https://scroll.in/magazine/1021614/an-indian-army-medical-units-selfless-sacrifice-saved-countless-lives-in-the-korean-war" target="_blank">
              An Indian army medical unit’s ‘selfless sacrifice’ saved countless lives in the Korean War</a>
              <br>2. <a href="https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=199972" target="_blank">
              Remembering India's role in the Korean War</a>
              <br>3. <a href="https://media.un.org/avlibrary/sites/avlibrary/files/filefield_paths/015-109.pdf" target="_blank">
-             (United Nations' Media Archive - Indian News Review, 1958): Indian Military officers for UN Observation team in Lebanon meet Krishna Menon (India) on the eve of their</a>
+             (United Nations' Media Archive - Indian News Review, 1958)Indian Military officers for the UN Observation team in Lebanon meet Krishna Menon (India) on the eve of their departure</a>
              <br>4. <a href="https://peacekeeping.un.org/sites/default/files/past/unogilfacts.html" target="_blank">
              United Nations Peace Keeping Facts and Figures - Lebanon UNOGIL</a>`
     },
     {
       name: "Vigyan Bhawan",
       coords: [28.61101876955748, 77.22056852462178],
-      desc: `7th Non Aligned Movement Summit was hosted here where India was the chair.
+      desc: `7th Non-Aligned Movement Summit was hosted here, where India was the chair.
              <br><a href="https://nam.go.ug/previous-chairmanship-documents" target="_blank">
              All NAM Summits and Documents</a>`
     },
@@ -54,19 +54,19 @@ var delhiBounds = [
     {
       name: "India International Center",
       coords: [28.59375902482149, 77.22272877116389],
-      desc: `Considered one of the country’s premier cultural institutions... 
+      desc: `Considered one of the country’s premier cultural institutions.
              <br><a href="https://www.tandfonline.com/doi/abs/10.1080/13556207.2015.1083292" target="_blank">
              The India International Centre of Joseph Allen Stein: Story of Cold War Politics and the Preservation of a Modern Monument</a>`
     },
     {
       name: "National Archives of India",
       coords: [28.61596296352641, 77.21731716880254],
-      desc: `Holds important documents that reflects India’s modern history including its global role.`
+      desc: `Holds important documents that reflect India’s modern history, including its global role.`
     },
     {
       name: "Lal Bahadur Shastri Memorial",
       coords: [28.60834162790969, 77.21915391534448],
-      desc: `Artifacts & exhibits documenting the life & achievements of Lal Bahadur Shastri.`
+      desc: `Artefacts & exhibits documenting the life & achievements of Lal Bahadur Shastri.`
     },
     {
       name: "National Gallery of Modern Art",
@@ -80,7 +80,7 @@ var delhiBounds = [
       coords: [28.5899107303392, 77.19128421349163],
       desc: `The statue is said to have been unveiled by then USSR Premier, Nikolai Ryzhkov on November 1, 1987.
              <br><a href="https://www.hindustantimes.com/delhi-news/lenin-statue-in-capital-s-nehru-park-a-selfie-hub-now/story-bNkOeIQSDLkZtFLkUtWNkM.html" target="_blank">
-             Lenin statue in Delhi’s Nehru Park a selfie hub now</a>`
+             Lenin statue in Delhi’s Nehru Park is a selfie hub now</a>`
     },
     {
       name: "Pushkin's Statue @ Mandi House",
@@ -92,7 +92,7 @@ var delhiBounds = [
     {
       name: "American Library/Center",
       coords: [28.62976228185498, 77.22349964661478],
-      desc: `It was setup in 1951 under the supervision of the U.S embassy to promote American culture and values via the literature they provide.`
+      desc: `It was set up in 1951 under the supervision of the U.S embassy to promote American culture and values via the literature they provide.`
     },
     {
       name: "Leo Tolstoy's Statue",
@@ -104,11 +104,11 @@ var delhiBounds = [
     {
       name: "Embassy of the United States of America",
       coords: [28.59686781607777, 77.18696590927664],
-      desc: `This is self explanatory. However, I want to draw attention to the fact how architecture was used as a means to project ideas like openness and democracy. 
+      desc: `This is self-explanatory. However, I want to draw attention to the fact that architecture was used as a means to project ideas like openness and democracy. 
              <br>1. <a href="https://www.bloomberg.com/news/features/2023-12-21/how-modernist-architects-fought-communism-in-the-cold-war" target="_blank">
              Saving the Architecture of Cold War-Era Diplomacy</a>
              <br>2. <a href="https://www.designboom.com/architecture/democracy-diplomacy-defense-deep-dive-us-embassies-david-b-peterson-interview-08-25-2023/" target="_blank">
-             Democracy, diplomacy and defense: a deep dive into the architecture of US embassies</a>`
+             Democracy, diplomacy and defence: a deep dive into the architecture of US embassies</a>`
     }
   ];
   
