@@ -113,7 +113,7 @@ var delhiBounds = [
     {
       name: "Carterpuri Village",
       coords: [28.506913745126575, 77.04321592574806],
-      desc: `This is self explanatory. However, I want to draw attention to the fact how architecture was used as a means to project ideas like openness and democracy. 
+      desc: ` 
                <br>1. <a href="https://archive.ph/0UBCC#selection-1245.0-1245.81" target="_blank">
               How Haryana’s Carterpuri village was named after former US President Jimmy Carter?</a>`
       }
