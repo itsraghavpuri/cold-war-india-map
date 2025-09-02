@@ -109,7 +109,14 @@ var delhiBounds = [
              Saving the Architecture of Cold War-Era Diplomacy</a>
              <br>2. <a href="https://www.designboom.com/architecture/democracy-diplomacy-defense-deep-dive-us-embassies-david-b-peterson-interview-08-25-2023/" target="_blank">
              Democracy, diplomacy and defence: a deep dive into the architecture of US embassies</a>`
-    }
+    },
+    {
+      name: "Carterpuri Village",
+      coords: [28.506913745126575, 77.04321592574806],
+      desc: `This is self explanatory. However, I want to draw attention to the fact how architecture was used as a means to project ideas like openness and democracy. 
+               <br>1. <a href="https://archive.ph/0UBCC#selection-1245.0-1245.81" target="_blank">
+              How Haryana’s Carterpuri village was named after former US President Jimmy Carter?</a>`
+      }
   ];
   
   // Add markers with popups
