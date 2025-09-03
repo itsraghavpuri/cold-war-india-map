@@ -113,10 +113,20 @@ var delhiBounds = [
     {
       name: "Carterpuri Village",
       coords: [28.506913745126575, 77.04321592574806],
-      desc: ` 
-               <br>1. <a href="https://archive.ph/0UBCC#selection-1245.0-1245.81" target="_blank">
-              How Haryana’s Carterpuri village was named after former US President Jimmy Carter?</a>`
-      }
+      desc: `Carterpuri (formerly Daulatpur Nasirabad) is a village in Gurgaon district. It was visited by US President Jimmy Carter during his India tour of 1978. Carter's mother had previously 
+             visited the village in the late 1960s as a member of the Peace Corps. Later the village's name was changed to Carterpuri after Jimmy Carter.
+               <br>1. <a href="https://archive.ph/0UBCC" target="_blank">
+               How Haryana’s Carterpuri village was named after former US President Jimmy Carter</a>`
+    },
+    {
+      name: "Delhi University",
+      coords: [28.687613165676773, 77.2103161399693],
+      desc: `US President Eisenhower was awarded with a honorary degree of Doctor of Laws in 1959 during his India tour.
+             <br>1. <a href="https://www.presidency.ucsb.edu/documents/remarks-upon-receiving-honorary-degree-doctor-laws-delhi-university" target="_blank">
+             Remarks Upon Receiving an Honorary Degree of Doctor of Laws at Delhi University</a>
+             <br>2. <a href="https://www.britishpathe.com/asset/244505/" target="_blank">
+             Video: Eisenhower honoured at Delhi University</a>`
+    }
   ];
   
   // Add markers with popups
