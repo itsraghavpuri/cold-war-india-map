@@ -126,6 +126,60 @@ var delhiBounds = [
              Remarks Upon Receiving an Honorary Degree of Doctor of Laws at Delhi University</a>
              <br>2. <a href="https://www.britishpathe.com/asset/244505/" target="_blank">
              Video: Eisenhower honoured at Delhi University</a>`
+    },
+      ,
+    {
+      name: "Rashtrapati Bhavan",
+      coords: [28.614545562914117, 77.19945145345801],
+      desc: `USSR Premier Nikolai Bulganin and Nikita Khrushchev, Communist Party chief stayed here in 1955 during their 3 week stay.
+               <br>1. <a href="https://www.britishpathe.com/asset/60109/" target="_blank">
+               Bulganin in India</a>
+               <br>2. <a href="https://www.nytimes.com/1955/11/19/archives/russians-greeted-by-million-in-india-million-in-india-greet.html" target="_blank">
+               Russians greeted by millions in India</a>
+               <br>3. <a href="https://time.com/archive/6799118/india-call-us-mister/" target="_blank">
+               India: Call us Mister</a>`
+    },
+    {
+       name: "Ajronda Village",
+       coords: [28.397104841690073, 77.31539967978865],
+       desc: `Marshal Kliment Y. Voroshilov, Chairman of the Presidium of the Supreme Soviet; Frol R. Kozlov, a First Deputy Premier, and Vasily V. Kuznetsov, Deputy Foreign Minister visited this village during their 1960 visit to India.
+                <br>1. <a href="https://www.nytimes.com/1955/11/19/archives/russians-greeted-by-million-in-india-million-in-india-greet.html" target="_blank">
+                Russians Busy in India; Visiting Soviet Leaders Tour Village and See Taj Mahal</a> 
+                <br>2. <a href="https://archives.bks.org.in/jspui/handle/123456789/15569?searchWord=&frontend=frontend&query=[query=&sort_by=dc.date.accessioned_dt&order=desc&rpp=20&etal=0&frontend=frontend&start=380]" target="_blank">
+                Kliment Voroshilov President of the Soviet Union and other members of the delegation to the World Agriculture Fair January 1960.</a>`
+    },
+    {
+        name: "Palam Airport (Now Indira Gandhi International Airport)",
+        coords: [28.557662941327113, 77.10060896332371],
+        desc: `<p>On 7th September 1969, Prime Minister Indira Gandhi met Soviet Premier Alexei Kosygin to discuss world issues and Indo-Soviet relations at an hour-long meeting. He changed his plans to have this 1 hour meeting.
+                <br><a href="https://www.hindustantimes.com/india-news/htthisday-sept-7-1969-pm-kosygin-discuss-bilateral-issues-101630945425747.html" target="_blank">
+                Hindustan Times Archive: Sept 7, 1969 — PM, Kosygin discuss bilateral issues</a></p>
+                
+                <p>On 31st July 1969, US President Richard Nixon came to India for 23 hours and gave an address here.
+                <br><a href="https://www.presidency.ucsb.edu/documents/remarks-arrival-new-delhi-india" target="_blank">
+                Remarks on Arrival in New Delhi, India</a></p>`
+    },
+    {
+        name: "10 Janpath",
+        coords: [28.60908452942609, 77.21898178489151],
+        desc: `Prime Minister Lal Bahadur Shastri met US Ambassador W. Averell Harriman to discuss the American peace moves in Vietnam war. The Americans possibly wanted India to be the Chairman of International Control Commission for Vietnam.
+                <br>1. <a href="https://www.nytimes.com/1966/01/01/archives/harriman-to-see-shastri-in-india-envoy-due-there-tomorrow-plans.html" target="_blank">
+                Harriman to see Shastri in India; Envoy Due There Tomorrow  Plans Made Hurriedly</a>
+                <br>2. <a href="https://www.nytimes.com/1966/01/03/archives/harriman-sees-shastri.html" target="_blank">
+                Harriman Sees Shastri</a>
+                <br>3. <a href="https://history.state.gov/historicaldocuments/frus1964-68v25/d275" target="_blank">
+                Letter From Prime Minister Shastri to President Johnson</a>`
+    },
+    {
+        name: "Old Parliament (Now Samvidhan Sadan)",
+        coords: [28.617406594381677, 77.20819552248147],
+        desc: `<p>Speeches of US Presidents Eisenhower (1959) and Jimmy Carter (1978).
+                <br>1. <a href="https://www.presidency.ucsb.edu/documents/address-delivered-before-joint-session-the-parliament-india" target="_blank">
+                Eisenhower: Address Delivered Before a Joint Session of the Parliament of India</a>
+                <br>2. <a href="https://www.presidency.ucsb.edu/documents/new-delhi-india-remarks-before-the-indian-parliament" target="_blank">
+                Jimmy Carter: Remarks Before the Indian Parliament</a><p>
+                 
+                <p>Speeches of USSR Premier Nikita Khruschev (1960) and General Secretary of the Communist Party Leonid Brezhnev (1973)</p>`
     }
   ];
   
