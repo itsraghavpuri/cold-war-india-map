@@ -1,18 +1,21 @@
 // Define Delhi bounding box (approximate lat/long corners)
 var delhiBounds = [
-    [28.40, 76.80], // Southwest corner
+    [28.319494048340797, 76.78388010675029], // Southwest corner
     [28.88, 77.35]  // Northeast corner
-  ];
-  
-  // Initialize map centered on Delhi, with bounds + zoom restrictions
-  var map = L.map('map', {
+];
+
+// Initialize map centered on Delhi, with bounds + zoom restrictions
+var map = L.map('map', {
     maxBounds: delhiBounds,   // restricts panning
     maxBoundsViscosity: 1.0   // "stickiness" at edges
-  }).setView([28.6139, 77.2090], 12);
-  
-  // Restrict zoom levels
-  map.setMinZoom(11);  // prevents zooming out too much
-  map.setMaxZoom(17);  // optional: prevents excessive zoom in
+});
+
+// Fit map to show the full bounding box (most zoomed out possible)
+map.fitBounds(delhiBounds);
+
+// Restrict zoom levels
+map.setMinZoom(11);  // prevents zooming out too much
+map.setMaxZoom(17);  // optional: prevents excessive zoom in
   
   // Add OpenStreetMap tiles with custom attribution
   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -29,22 +32,24 @@ var delhiBounds = [
     {
       name: "National War Memorial",
       coords: [28.612919939084257, 77.23305365476675],
-      desc: `Commemorates India’s soldiers – reflects Cold War era conflicts and India’s defence policy.
+      desc: `Commemorates India’s soldiers – reflects Cold War era conflicts and India’s defense policy.
              <br>1. <a href="https://scroll.in/magazine/1021614/an-indian-army-medical-units-selfless-sacrifice-saved-countless-lives-in-the-korean-war" target="_blank">
              An Indian army medical unit’s ‘selfless sacrifice’ saved countless lives in the Korean War</a>
              <br>2. <a href="https://www.korea.net/NewsFocus/HonoraryReporters/view?articleId=199972" target="_blank">
              Remembering India's role in the Korean War</a>
              <br>3. <a href="https://media.un.org/avlibrary/sites/avlibrary/files/filefield_paths/015-109.pdf" target="_blank">
-             (United Nations' Media Archive - Indian News Review, 1958)Indian Military officers for the UN Observation team in Lebanon meet Krishna Menon (India) on the eve of their departure</a>
+             (United Nations' Media Archive - Indian News Review, 1958): Indian Military officers for UN Observation team in Lebanon meet Krishna Menon (India) on the eve of their</a>
              <br>4. <a href="https://peacekeeping.un.org/sites/default/files/past/unogilfacts.html" target="_blank">
              United Nations Peace Keeping Facts and Figures - Lebanon UNOGIL</a>`
     },
     {
       name: "Vigyan Bhawan",
       coords: [28.61101876955748, 77.22056852462178],
-      desc: `7th Non-Aligned Movement Summit was hosted here, where India was the chair.
-             <br><a href="https://nam.go.ug/previous-chairmanship-documents" target="_blank">
-             All NAM Summits and Documents</a>`
+      desc: `7th Non Aligned Movement Summit was hosted here where India was the chair.
+             <br>1. <a href="https://nam.go.ug/previous-chairmanship-documents" target="_blank">
+             All NAM Summits and Documents</a>
+             <br>2. <a href="https://www.news18.com/viral/why-fidel-castros-bear-hug-to-indira-gandhi-in-1983-is-an-iconic-cold-war-moment-aa-9148105.html" target="_blank">
+             Why Fidel Castro’s Bear Hug To Indira Gandhi In 1983 Is An Iconic Cold War Moment?</a>`
     },
     {
       name: "Indira Gandhi Memorial Museum",
@@ -54,19 +59,20 @@ var delhiBounds = [
     {
       name: "India International Center",
       coords: [28.59375902482149, 77.22272877116389],
-      desc: `Considered one of the country’s premier cultural institutions.
+      desc: `Considered one of the country’s premier cultural institutions... 
              <br><a href="https://www.tandfonline.com/doi/abs/10.1080/13556207.2015.1083292" target="_blank">
              The India International Centre of Joseph Allen Stein: Story of Cold War Politics and the Preservation of a Modern Monument</a>`
     },
     {
       name: "National Archives of India",
       coords: [28.61596296352641, 77.21731716880254],
-      desc: `Holds important documents that reflect India’s modern history, including its global role.`
+      desc: `Holds important documents that reflects India’s modern history including its global role.`
     },
     {
       name: "Lal Bahadur Shastri Memorial",
       coords: [28.60834162790969, 77.21915391534448],
-      desc: `Artefacts & exhibits documenting the life & achievements of Lal Bahadur Shastri.`
+      desc: `Artifacts & exhibits documenting the life & achievements of Lal Bahadur Shastri.
+            He signed the Tashkent Declaration with Pakistan. US and USSR had intervened to stop the war.`
     },
     {
       name: "National Gallery of Modern Art",
@@ -80,7 +86,7 @@ var delhiBounds = [
       coords: [28.5899107303392, 77.19128421349163],
       desc: `The statue is said to have been unveiled by then USSR Premier, Nikolai Ryzhkov on November 1, 1987.
              <br><a href="https://www.hindustantimes.com/delhi-news/lenin-statue-in-capital-s-nehru-park-a-selfie-hub-now/story-bNkOeIQSDLkZtFLkUtWNkM.html" target="_blank">
-             Lenin statue in Delhi’s Nehru Park is a selfie hub now</a>`
+             Lenin statue in Delhi’s Nehru Park a selfie hub now</a>`
     },
     {
       name: "Pushkin's Statue @ Mandi House",
@@ -92,7 +98,7 @@ var delhiBounds = [
     {
       name: "American Library/Center",
       coords: [28.62976228185498, 77.22349964661478],
-      desc: `It was set up in 1951 under the supervision of the U.S embassy to promote American culture and values via the literature they provide.`
+      desc: `It was setup in 1951 under the supervision of the U.S embassy to promote American culture and values via the literature they provide.`
     },
     {
       name: "Leo Tolstoy's Statue",
@@ -104,11 +110,11 @@ var delhiBounds = [
     {
       name: "Embassy of the United States of America",
       coords: [28.59686781607777, 77.18696590927664],
-      desc: `This is self-explanatory. However, I want to draw attention to the fact that architecture was used as a means to project ideas like openness and democracy. 
+      desc: `This is self explanatory. However, I want to draw attention to the fact how architecture was used as a means to project ideas like openness and democracy. 
              <br>1. <a href="https://www.bloomberg.com/news/features/2023-12-21/how-modernist-architects-fought-communism-in-the-cold-war" target="_blank">
              Saving the Architecture of Cold War-Era Diplomacy</a>
              <br>2. <a href="https://www.designboom.com/architecture/democracy-diplomacy-defense-deep-dive-us-embassies-david-b-peterson-interview-08-25-2023/" target="_blank">
-             Democracy, diplomacy and defence: a deep dive into the architecture of US embassies</a>`
+             Democracy, diplomacy and defense: a deep dive into the architecture of US embassies</a>`
     },
     {
       name: "Carterpuri Village",
@@ -127,7 +133,6 @@ var delhiBounds = [
              <br>2. <a href="https://www.britishpathe.com/asset/244505/" target="_blank">
              Video: Eisenhower honoured at Delhi University</a>`
     },
-      ,
     {
       name: "Rashtrapati Bhavan",
       coords: [28.614545562914117, 77.19945145345801],
@@ -179,7 +184,13 @@ var delhiBounds = [
                 <br>2. <a href="https://www.presidency.ucsb.edu/documents/new-delhi-india-remarks-before-the-indian-parliament" target="_blank">
                 Jimmy Carter: Remarks Before the Indian Parliament</a><p>
                  
-                <p>Speeches of USSR Premier Nikita Khruschev (1960) and General Secretary of the Communist Party Leonid Brezhnev (1973)</p>`
+                <p>Speeches of USSR Premier Nikolai Bulganin and Nikita Khrushchev (1955) and General Secretary of the Communist Party Leonid Brezhnev (1973)
+                <br>1. <a href="https://core.ac.uk/download/pdf/328102783.pdf" target="_blank">
+                Visit to India: Speeches and Interviews of Nikolai Bulganin and Nikita Khrushchev</a>
+                <br>2. <a href="https://www.britishpathe.com/asset/220705/" target="_blank">
+                India: Soviet Communist Party Leader Brezhnev Addresses Parliament and Signs Joint Agreements at the of his 5 day visit</a>
+                <br>3. <a href="https://www.britishpathe.com/asset/220710/" target="_blank">
+                India: Soviet Party Leader Brezhnev has talks with Prime Minister Gandhi</a></p>`
     }
   ];
   
