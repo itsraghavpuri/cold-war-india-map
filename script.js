@@ -181,8 +181,10 @@ map.setMaxZoom(17);  // optional: prevents excessive zoom in
         desc: `<p>Speeches of US Presidents Eisenhower (1959) and Jimmy Carter (1978).
                 <br>1. <a href="https://www.presidency.ucsb.edu/documents/address-delivered-before-joint-session-the-parliament-india" target="_blank">
                 Eisenhower: Address Delivered Before a Joint Session of the Parliament of India</a>
-                <br>2. <a href="https://www.presidency.ucsb.edu/documents/new-delhi-india-remarks-before-the-indian-parliament" target="_blank">
-                Jimmy Carter: Remarks Before the Indian Parliament</a><p>
+                <br>2. <a href="https://en.m.wikipedia.org/wiki/File:Indo_US.jpg" target="_blank">
+                Prime Minister Nehru meeting President Eisenhower</a>
+                <br>3. <a href="https://www.presidency.ucsb.edu/documents/new-delhi-india-remarks-before-the-indian-parliament" target="_blank">
+                Jimmy Carter: Remarks Before the Indian Parliament</a></p>
                  
                 <p>Speeches of USSR Premier Nikolai Bulganin and Nikita Khrushchev (1955) and General Secretary of the Communist Party Leonid Brezhnev (1973)
                 <br>1. <a href="https://core.ac.uk/download/pdf/328102783.pdf" target="_blank">
